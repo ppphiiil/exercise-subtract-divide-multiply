@@ -13,3 +13,31 @@
 // * 6, 4 ➞ "multiplied"
 // * 528, 22 ➞ "divided"
 // * 10, 12 ➞ null
+
+const getNumber = 24;
+const number1 = 10;
+const number2 = 12;
+
+
+if (((number1 + number2) === 24)) {
+    console.log("added");
+} else
+
+    if (((number1 - number2) === 24)) {
+        console.log("subtracted");
+    } else
+
+        if (((number1 * number2) === 24)) {
+            console.log("multiplied");
+        }
+        else
+
+            if (((number1 / number2) === 24)) {
+                console.log("devided");
+            }
+
+            else {
+                console.log("null");
+            }
+
+
